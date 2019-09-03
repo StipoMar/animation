@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.animation {
+	background-color: #4f4f4f;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+
+.chair {
+	position: absolute;
+	top: 50%;
+	left: -10%;
+	height: 150px;
+	transform: translateY(-50%);
+}
+
+.human {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 150px;
+	transform: translate(-50%, -50%);
+}
